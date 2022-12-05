@@ -1,0 +1,342 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB016C98293E5FEE00F45732 /* frames in Resources */ = {isa = PBXBuildFile; fileRef = CB016C97293E5FEE00F45732 /* frames */; };
+		CB84FE08293B1FBF00D8769A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CB84FE07293B1FBF00D8769A /* AppDelegate.m */; };
+		CB84FE0A293B1FC700D8769A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB84FE09293B1FC700D8769A /* Assets.xcassets */; };
+		CB84FE10293B1FC700D8769A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CB84FE0F293B1FC700D8769A /* main.m */; };
+		CB84FE1B293B20EE00D8769A /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB84FE1A293B20EE00D8769A /* MainMenu.xib */; };
+		CB84FE1F293B219500D8769A /* FlyingToastersWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = CB84FE1E293B219500D8769A /* FlyingToastersWindow.m */; };
+		CB84FE2B293B304600D8769A /* FlyingToaster.m in Sources */ = {isa = PBXBuildFile; fileRef = CB84FE2A293B304600D8769A /* FlyingToaster.m */; };
+		CB84FE35293B3DB100D8769A /* FlyingToastersView.m in Sources */ = {isa = PBXBuildFile; fileRef = CB84FE34293B3DB100D8769A /* FlyingToastersView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CB016C97293E5FEE00F45732 /* frames */ = {isa = PBXFileReference; lastKnownFileType = folder; name = frames; path = ../../frames; sourceTree = "<group>"; };
+		CB016C9F293E60B100F45732 /* FlyingToastersDesktop.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FlyingToastersDesktop.entitlements; sourceTree = "<group>"; };
+		CB84FE03293B1FBF00D8769A /* FlyingToastersDesktop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlyingToastersDesktop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB84FE06293B1FBF00D8769A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CB84FE07293B1FBF00D8769A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CB84FE09293B1FC700D8769A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CB84FE0E293B1FC700D8769A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB84FE0F293B1FC700D8769A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CB84FE1A293B20EE00D8769A /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
+		CB84FE1D293B219500D8769A /* FlyingToastersWindow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlyingToastersWindow.h; sourceTree = "<group>"; };
+		CB84FE1E293B219500D8769A /* FlyingToastersWindow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlyingToastersWindow.m; sourceTree = "<group>"; };
+		CB84FE29293B304600D8769A /* FlyingToaster.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlyingToaster.h; sourceTree = "<group>"; };
+		CB84FE2A293B304600D8769A /* FlyingToaster.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlyingToaster.m; sourceTree = "<group>"; };
+		CB84FE33293B3DB100D8769A /* FlyingToastersView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlyingToastersView.h; sourceTree = "<group>"; };
+		CB84FE34293B3DB100D8769A /* FlyingToastersView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlyingToastersView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB84FE00293B1FBF00D8769A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CB84FDFA293B1FBF00D8769A = {
+			isa = PBXGroup;
+			children = (
+				CB84FE05293B1FBF00D8769A /* FlyingToastersDesktop */,
+				CB84FE04293B1FBF00D8769A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CB84FE04293B1FBF00D8769A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB84FE03293B1FBF00D8769A /* FlyingToastersDesktop.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB84FE05293B1FBF00D8769A /* FlyingToastersDesktop */ = {
+			isa = PBXGroup;
+			children = (
+				CB84FE06293B1FBF00D8769A /* AppDelegate.h */,
+				CB84FE07293B1FBF00D8769A /* AppDelegate.m */,
+				CB84FE1A293B20EE00D8769A /* MainMenu.xib */,
+				CB84FE0E293B1FC700D8769A /* Info.plist */,
+				CB84FE0F293B1FC700D8769A /* main.m */,
+				CB84FE09293B1FC700D8769A /* Assets.xcassets */,
+				CB84FE1D293B219500D8769A /* FlyingToastersWindow.h */,
+				CB84FE1E293B219500D8769A /* FlyingToastersWindow.m */,
+				CB84FE33293B3DB100D8769A /* FlyingToastersView.h */,
+				CB84FE34293B3DB100D8769A /* FlyingToastersView.m */,
+				CB84FE29293B304600D8769A /* FlyingToaster.h */,
+				CB84FE2A293B304600D8769A /* FlyingToaster.m */,
+				CB016C9F293E60B100F45732 /* FlyingToastersDesktop.entitlements */,
+				CB016C97293E5FEE00F45732 /* frames */,
+			);
+			path = FlyingToastersDesktop;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB84FE02293B1FBF00D8769A /* FlyingToastersDesktop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB84FE14293B1FC700D8769A /* Build configuration list for PBXNativeTarget "FlyingToastersDesktop" */;
+			buildPhases = (
+				CB84FDFF293B1FBF00D8769A /* Sources */,
+				CB84FE00293B1FBF00D8769A /* Frameworks */,
+				CB84FE01293B1FBF00D8769A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlyingToastersDesktop;
+			productName = Tester;
+			productReference = CB84FE03293B1FBF00D8769A /* FlyingToastersDesktop.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB84FDFB293B1FBF00D8769A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1240;
+				ORGANIZATIONNAME = "Charlie Robin";
+				TargetAttributes = {
+					CB84FE02293B1FBF00D8769A = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = CB84FDFE293B1FBF00D8769A /* Build configuration list for PBXProject "FlyingToastersDesktop" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CB84FDFA293B1FBF00D8769A;
+			productRefGroup = CB84FE04293B1FBF00D8769A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB84FE02293B1FBF00D8769A /* FlyingToastersDesktop */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB84FE01293B1FBF00D8769A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB84FE0A293B1FC700D8769A /* Assets.xcassets in Resources */,
+				CB016C98293E5FEE00F45732 /* frames in Resources */,
+				CB84FE1B293B20EE00D8769A /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB84FDFF293B1FBF00D8769A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB84FE35293B3DB100D8769A /* FlyingToastersView.m in Sources */,
+				CB84FE2B293B304600D8769A /* FlyingToaster.m in Sources */,
+				CB84FE10293B1FC700D8769A /* main.m in Sources */,
+				CB84FE1F293B219500D8769A /* FlyingToastersWindow.m in Sources */,
+				CB84FE08293B1FBF00D8769A /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CB84FE12293B1FC700D8769A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CB84FE13293B1FC700D8769A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CB84FE15293B1FC700D8769A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FlyingToastersDesktop/FlyingToastersDesktop.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = XESDTU2665;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = FlyingToastersDesktop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.charlierobin.FlyingToastersDesktop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CB84FE16293B1FC700D8769A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FlyingToastersDesktop/FlyingToastersDesktop.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = XESDTU2665;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = FlyingToastersDesktop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.charlierobin.FlyingToastersDesktop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB84FDFE293B1FBF00D8769A /* Build configuration list for PBXProject "FlyingToastersDesktop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB84FE12293B1FC700D8769A /* Debug */,
+				CB84FE13293B1FC700D8769A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB84FE14293B1FC700D8769A /* Build configuration list for PBXNativeTarget "FlyingToastersDesktop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB84FE15293B1FC700D8769A /* Debug */,
+				CB84FE16293B1FC700D8769A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CB84FDFB293B1FBF00D8769A /* Project object */;
+}
